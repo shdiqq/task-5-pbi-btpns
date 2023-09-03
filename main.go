@@ -14,7 +14,7 @@ func main() {
 	config.LoadConfig()
 	config.ConnectDatabase()
 
-	router := mux.NewRouter().StrictSlash(true)
+	router := mux.NewRouter()
 	routes.RoutesIndex(router)
 
 	log.Println("[APP] Server is listening to port", config.ENV.PORT)

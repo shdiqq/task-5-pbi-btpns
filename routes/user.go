@@ -12,7 +12,7 @@ func UserRoutes(router *mux.Router) {
 	// Middleware
 	user.Use(middleware.Auth)
 
-	user.HandleFunc("/", usercontroller.ListUser).Methods("GET")
+	user.HandleFunc("", usercontroller.ListUser).Methods("GET")
 	user.HandleFunc("/{userId}", usercontroller.UpdateUser).Methods("PUT")
 	user.HandleFunc("/{userId}", usercontroller.DeleteUser).Methods("DELETE")
 }
