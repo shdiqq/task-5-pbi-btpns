@@ -24,13 +24,13 @@ This is a simple Rest-API created using GO-Language as a VIX Full Stack Develope
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/shdiqq/task-5-pbi-btpns-Shadiq.git
+git clone https://github.com/shdiqq/task-5-pbi-btpns.git
 ```
 
 Change into the project directory:
 
 ```bash
-cd task-5-pbi-btpns-Shadiq
+cd task-5-pbi-btpns
 ```
 
 Install the necessary dependencies:
